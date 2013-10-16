@@ -6,7 +6,7 @@
 		<script type="text/javascript" src="<?php echo $arrCfg['web_root'];?>player/jwplayer.min.js"></script>
 		<link rel="stylesheet" href="<?php echo $arrCfg['web_root'];?>css/main.css" type="text/css" />
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-		<link rel="shortcut icon" href="/vod/favicon.ico">
+		<link rel="shortcut icon" href="/live/favicon.ico">
 	</head>
 	<script type="text/javascript">
 		var start = 0; //start point in seconds
@@ -30,7 +30,7 @@
 		<div id="mainContainer">
 			<div id="bannerContainer">
 				<div id="banner">
-					<div id="bannerTitle">Streaming Media Service</div>
+					<div id="bannerTitle">Live Video Streaming</div>
 					<a href="http://www.libraries.rutgers.edu" target="_blank" title="Rutgers Libraries Home Page"><div style="height: 75px; width: 200px; position: absolute;"></div></a>
 					<img src="<?php echo $arrCfg['web_root'];?>img/banner.png" border="0">
 
