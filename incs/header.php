@@ -30,7 +30,6 @@
 		<div id="mainContainer">
 			<div id="bannerContainer">
 				<div id="banner">
-					<div id="bannerTitle">Live Video Streaming</div>
 					<a href="http://www.libraries.rutgers.edu" target="_blank" title="Rutgers Libraries Home Page"><div style="height: 75px; width: 200px; position: absolute;"></div></a>
 					<img src="<?php echo $arrCfg['web_root'];?>img/banner.png" border="0">
 
