@@ -21,6 +21,12 @@ $arrCfg['wowza_content_directory'] = "/usr/local/WowzaMediaServer/content/live";
 //wowza server address and port and content directory
 $arrCfg['wowza_server'] = "rtmp://stream1.libraries.rutgers.edu:1935/live";
 
+$arrCfg['wowza_server-rtsp'] = "rtsp://stream1.libraries.rutgers.edu:1935/live/_definst_/";
+$arrCfg['wowza_server-rtmpe'] = "rtmpe://stream1.libraries.rutgers.edu:1935/live/";
+$arrCfg['wowza_server-hls'] = "http://stream1.libraries.rutgers.edu:443/live/_definst_/";
+$arrCfg['wowza_base_dir'] = "live/";
+$arrCfg['session-space'] = "live";
+
 //base web directory for content
 $arrCfg['web_root'] = "/live/";
 

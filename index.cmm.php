@@ -9,7 +9,6 @@
  * @copyright 2012
  */
 
-
 session_start();
 
 //include configuration

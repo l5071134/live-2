@@ -3,7 +3,8 @@
 	<head>
 		<title><?php echo $pgTitle;?></title>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<script type="text/javascript" src="<?php echo $arrCfg['web_root'];?>player/jwplayer.min.js"></script>
+		<script type="text/javascript" src="<?php echo $arrCfg['web_root'];?>player/jwplayer.js"></script>
+    <script type="text/javascript">jwplayer.key="IYkWcwytK8eSVlqV4/+GySjsRYQ1ed0iO58UyMRDa+o="</script>    
 		<link rel="stylesheet" href="<?php echo $arrCfg['web_root'];?>css/main.css" type="text/css" />
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 		<link rel="shortcut icon" href="/live/img/favicon.ico">
